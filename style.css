@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navegacao{
+    display: flex;
+    justify-content:space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+body{
+    background-color:#f8eaea ;
+}
+.nome{
+    color: rgb(20, 63, 48);
+}
+.img{
+    height: 100%;
+    width: 100%;
+    position: center;
+
+}
