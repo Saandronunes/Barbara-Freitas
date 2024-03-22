@@ -23,7 +23,7 @@
                     
                     <a target="_blank" href= "https://wa.me/5561999915606">
                         <button class="button">
-                            Vamos Conversar ? 
+                            ainda está com dúvidas ? 
                         </button>
                     </a>
                 
@@ -31,12 +31,25 @@
             </div>
         </div>
     </header>
-    <!--Nome e dados do cliente-->
-    <main>
-        <h1>Bárbara Caixeta Freitas</h1>
-        <h3>Psicóloga - CRP : </h3>
-    </main>
+   <main>
+    <h1 class="agenda">CONFIRMADA SEU AGENDAMENTO</h1>
+    <h2 class="dados" >Dados Pessoais</h2>
+    <?php 
 
+        $nome = $_POST["nome"];
+        $tel = $_POST["tel"];
+        $data = $_POST["date"];
+        $time = $_POST["time"];
+        
+        echo"<p>Nome Completo: $nome</p>";
+        echo"<p>Data da Consulta: $data</p>";
+        echo"<p>Horário: $time</p>";
+
+        echo "Tente não chegar atrasado, a asessão será cobrada se o paciente não comparecer na data marcada.";
+    
+    ?>
+
+   </main>
     
     
 </body>
